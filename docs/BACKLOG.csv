@@ -1,0 +1,26 @@
+issue_id,week,owner,reviewer,task,dependency,acceptance_evidence
+W1-S1,1,S1,S5,Collect ten official IU box scores and provenance links,Kickoff,At least ten games; unique game/team and game/player keys; every record traceable.
+W1-S2,1,S2,S1,Implement and audit game/player CSV contracts,Kickoff,At least ten games; unique game/team and game/player keys; every record traceable.
+W1-S3,1,S3,S2,Define the season question and exclusions,Kickoff,At least ten games; unique game/team and game/player keys; every record traceable.
+W1-S4,1,S4,S3,Sketch three dashboard views; obtain Tableau reference,Kickoff,At least ten games; unique game/team and game/player keys; every record traceable.
+W1-S5,1,S5,S4,Run demo on a second machine; open access/setup issues,Kickoff,At least ten games; unique game/team and game/player keys; every record traceable.
+W2-S1,2,S1,S5,Complete season ingestion and source register,Week 1 gate,Five spot checks pass; zero-denominator values remain missing; overtime identified.
+W2-S2,2,S2,S1,"Hand-check eFG, possessions and overtime pace",Week 1 gate,Five spot checks pass; zero-denominator values remain missing; overtime identified.
+W2-S3,2,S3,S2,Explain three EDA patterns with denominators,Week 1 gate,Five spot checks pass; zero-denominator values remain missing; overtime identified.
+W2-S4,2,S4,S3,Draft annotated trend and player charts,Week 1 gate,Five spot checks pass; zero-denominator values remain missing; overtime identified.
+W2-S5,2,S5,S4,Audit five randomly selected box scores,Week 1 gate,Five spot checks pass; zero-denominator values remain missing; overtime identified.
+W3-S1,3,S1,S5,Freeze cleaned season data and hashes,Week 2 gate,State sample size and minutes threshold; compare with a simple season-average baseline.
+W3-S2,3,S2,S1,Implement minutes eligibility and ratio aggregation checks,Week 2 gate,State sample size and minutes threshold; compare with a simple season-average baseline.
+W3-S3,3,S3,S2,Evaluate one predeclared claim with game bootstrap,Week 2 gate,State sample size and minutes threshold; compare with a simple season-average baseline.
+W3-S4,3,S4,S3,Build player-ranking and venue comparison views,Week 2 gate,State sample size and minutes threshold; compare with a simple season-average baseline.
+W3-S5,3,S5,S4,Run five-seed bootstrap and record compute resources,Week 2 gate,State sample size and minutes threshold; compare with a simple season-average baseline.
+W4-S1,4,S1,S5,Prepare tidy dashboard exports and relationships,Week 3 gate,Three user tasks completed; filtered KPIs match Python; no unsupported national ranking.
+W4-S2,4,S2,S1,Reconcile filtered metrics with Python,Week 3 gate,Three user tasks completed; filtered KPIs match Python; no unsupported national ranking.
+W4-S3,4,S3,S2,Review uncertainty and limits in dashboard captions,Week 3 gate,Three user tasks completed; filtered KPIs match Python; no unsupported national ranking.
+W4-S4,4,S4,S3,Build interactive BI workbook and run two usability reviews,Week 3 gate,Three user tasks completed; filtered KPIs match Python; no unsupported national ranking.
+W4-S5,4,S5,S4,Rebuild from fresh clone and report discrepancies,Week 3 gate,Three user tasks completed; filtered KPIs match Python; no unsupported national ranking.
+W5-S1,5,S1,S5,Finalize sources and data-use notes,Week 4 gate,Another student rebuilds tables from approved inputs; every chart has a source and denominator.
+W5-S2,5,S2,S1,Demonstrate one metric by hand in final talk,Week 4 gate,Another student rebuilds tables from approved inputs; every chart has a source and denominator.
+W5-S3,5,S3,S2,Write two evidence-backed findings and one limitation,Week 4 gate,Another student rebuilds tables from approved inputs; every chart has a source and denominator.
+W5-S4,5,S4,S3,Polish workbook and assemble six slides,Week 4 gate,Another student rebuilds tables from approved inputs; every chart has a source and denominator.
+W5-S5,5,S5,S4,Tag release after independent rerun and contribution audit,Week 4 gate,Another student rebuilds tables from approved inputs; every chart has a source and denominator.
